@@ -1,0 +1,409 @@
+body{
+
+background: url("images/paperbg.png");
+overflow-x: hidden;
+
+}
+
+.btn-dark:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, .06);
+  color: #D3CCE3;
+}
+
+#mainlogo {
+height: 40px;
+width: 120px;
+margin:0;
+padding:0;
+border:0;
+}
+
+.mb-2:hover {
+  transform: scale(1.01);
+}
+
+.fa-search:hover{
+  color:#00e6a1;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.dropdown-toggle::after {
+  border: none!important;
+  font: normal normal normal 14px/1 FontAwesome;
+  /* content: "\f002"!important; the desired FontAwesome icon */
+  /* content: url("searchicon.PNG"); */
+  /* height: 14px;
+  width: 14px; */
+  vertical-align: 10px; /* to center vertically */
+}
+
+.dropdown-toggle:hover{
+  color: #00e6a1;
+}
+
+.navbar {
+  background-color: rgb(250, 250, 250);
+  z-index:1;
+}
+
+.navbar-brand{
+  margin-left: 40px;
+}
+
+.form-group{
+  fill: 30px
+  X and Y: 18px
+  opacity:100%
+  color: #D1D9E6
+}
+
+.navbar-nav a {
+  color: rgb(161, 161, 161);
+  z-index:1;
+}
+
+#hamburger {
+  height: 35px;
+  width: 35px;
+}
+
+.navs {
+  font-weight: 300;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 16px;
+  margin-left: 40px;
+
+}
+.navs:hover {
+  /* background-color: rgb(67, 96, 134); */
+  color: #00e6a1;
+  transform: scale(1.05);
+  /* border-radius: 5px; */
+}
+
+#buy-cards{
+background-color: rgb(249, 249, 249);
+border:0;
+ margin-bottom:20px;
+ height: 420px;
+
+}
+
+#bookinfo{
+margin-top: 20px;
+color:white;
+font-family: 'Baloo Tamma 2', cursive;
+-webkit-box-shadow: 10px 7px 42px 4px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 7px 42px 4px rgba(0,0,0,0.75);
+box-shadow: 10px 7px 42px 4px rgba(0,0,0,0.75);
+margin:20px;
+padding:10px;
+}
+
+#detailimage{
+height:300px;
+width: 200px;
+-webkit-box-shadow: 10px 7px 42px 4px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 7px 42px 4px rgba(0,0,0,0.75);
+box-shadow: 10px 7px 42px 4px rgba(0,0,0,0.75);
+margin:30px;
+
+}
+
+#title-book{
+margin-top:5px;
+}
+
+#Details{
+background-color:white;
+border-radius: 40px;
+padding:7px 30px;
+ box-shadow: inset 0 2px 3px rgba(255,255,255,0.3),
+    inset 0 -2px 3px rgba(0,0,0,0.3),
+    0 1px 1px rgba(255,255,255,0.9);
+}
+
+.card-img-top{
+ box-shadow: 5px 10px 8px #888888;
+ width:200px;
+ height:270px;
+}
+
+.card-footer{
+background: transparent;
+  border-top: 0px;
+  display: flex;
+  justify-content: center;
+
+}
+
+#deets{
+  margin-top: 200px;
+}
+
+#white_labels label{
+    color:white;
+}
+
+
+#login_signup h1 {
+    font-weight: bold;
+    margin: 0;
+}
+
+#login_signup p {
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    margin: 20px 0 30px;
+}
+
+form{
+    margin-top:100px;
+    background-color: #558074;
+    padding: 0 50px;
+    height: 100%;
+     box-shadow: inset 3px 3px 7px , inset -3px -3px 7px #000000;
+    i {
+        text-shadow: 1px 1px 1px #d6e1ef99, 0 0 0 #000, 1px 1px 1px #000000;
+    }
+    border-radius: 20px;
+
+
+}
+
+#deetsinner{
+margin: 50px;
+}
+#deetscontainer{
+background-color: #559886;
+box-shadow: inset 3px 3px 7px , inset -3px -3px 7px #000000;
+    i {
+        text-shadow: 1px 1px 1px #d6e1ef99, 0 0 0 #000, 1px 1px 1px #000000;
+    }
+    border-radius: 20px;
+
+ margin-top:100px;
+}
+#notescontainer{
+background-color: #559886;
+box-shadow: inset 3px 3px 7px , inset -3px -3px 7px #000000;
+    i {
+        text-shadow: 1px 1px 1px #d6e1ef99, 0 0 0 #000, 1px 1px 1px #000000;
+    }
+    border-radius: 20px;
+
+ margin-top:100px;
+}
+.form-group{
+margin:20px 0;
+}
+
+#signin{
+padding: 6px 30px;
+}
+#login_signup .ghost {
+    border-radius: 20px;
+    border: 1px solid cyan;
+    background-color: cyan;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+}
+#form_submit{
+    margin-top:10%;
+    padding:2%;
+    margin-left:36%;
+    border-radius:50px;
+    font-size:1.2rem;
+}
+#login_signup button:active {
+    transform: scale(0.95);
+}
+
+#login_signup button:focus {
+    outline: none;
+}
+
+#login_signup button.ghost {
+    color:black;
+    background-color: transparent;
+    border-color: black;
+}
+#login_signup label{
+font-weight:bold;
+}
+
+#login_signup input {
+    background-color: #eee;
+    border: none;
+    border-radius:50px;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 100%;
+}
+
+#container_l_s{
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    position: relative;
+    overflow: hidden;
+    top:10px;
+    width: 1280px;
+    max-width: 100%;
+    min-height: 635px;
+}
+
+
+.form-container {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    transition: all 0.6s ease-in-out;
+}
+
+.sign-in-container {
+    left: 0;
+    width: 50%;
+}
+
+.signupform{
+margin-top: 80px;
+
+
+}
+.sign-up-container {
+    left: 0;
+    width: 50%;
+    opacity: 0;
+}
+
+.right-panel-active .sign-in-container {
+    transform: translateX(100%);
+}
+
+.right-panel-active .sign-up-container {
+    transform: translateX(100%);
+    opacity: 1;
+    animation: show 0.6s;
+}
+
+
+.overlay-container {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    transition: transform 0.6s ease-in-out;
+}
+
+.right-panel-active .overlay-container {
+    transform: translateX(-100%);
+}
+
+.overlay {
+    background: #00C9FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient( #92FE9D, #00C9FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient( rgba(92,254,157,0.9),60%, rgba(0,201,255,0.6));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    color: black;
+    position: relative;
+    left: -100%;
+    height: 100%;
+    width: 200%;
+    transform: translateX(0);
+    transition: transform 0.6s ease-in-out;
+}
+
+.right-panel-active .overlay {
+    transform: translateX(50%);
+}
+
+.overlay-panel {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    transform: translateX(0);
+    transition: transform 0.6s ease-in-out;
+}
+
+.overlay-left {
+    transform: translateX(-20%);
+}
+
+.right-panel-active .overlay-left {
+    transform: translateX(0);
+}
+
+.overlay-right {
+    right: 0;
+    transform: translateX(0);
+}
+
+.right-panel-active .overlay-right {
+    transform: translateX(20%);
+}
+
+#filter{
+color:white;
+font-size:2rem;
+}
+ 
+
+#bookcard{
+  margin-top: 300px;
+}
+@media screen and (max-width: 1200px) {
+.card-img-top{
+ box-shadow: 5px 10px 8px #888888;
+ width:170px;
+ height:240px;
+}
+}
+@media screen and (max-width: 770px) {
+  .navbar {
+    margin: 0;
+  }
+  .navs:hover {
+    width: 300px;
+  }
+
+  body {
+    background-size: 100%;
+    overflow-x: hidden;
+    background-position: fixed;
+  }
+}
+
+@keyframes show {
+    0%,
+    49.99% {
+        opacity: 0;
+        z-index: 1;
+    }
+
+    50%,
+    100% {
+        opacity: 1;
+        z-index: 5;
+    }
+}

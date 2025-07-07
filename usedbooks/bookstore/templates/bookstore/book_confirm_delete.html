@@ -1,0 +1,26 @@
+{% extends "bookstore/base.html" %}
+{% load crispy_forms_tags %}
+{% load static %}
+{% block content %}
+<div class="container-fluid" id="back">
+    <div class="container mt-5">
+
+
+        <form method="POST" enctype="multipart/form-data">
+            {% csrf_token %}
+            <fieldset class="form-group" >
+                <h1 class="border-bottom mb-4 text-white">Delete</h1>
+                <p class="text-white">Are you sure you want to delete?</p>
+
+            </fieldset>
+            <div class="form-group ">
+                <button id="signin" class="btn btn-primary " type="submit">DELETE</button>
+            </div>
+        </form>
+
+
+    </div>
+</div>
+{% endblock %}
+
+

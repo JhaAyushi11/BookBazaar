@@ -1,0 +1,22 @@
+nav .nav{
+	width: 100px;
+}
+.nav{
+	padding-bottom:115%;
+	padding-left:5%;
+	font-size:20px;
+	background-image : url('images/paperbg.png');
+}
+nav a{
+	color: white;
+	font-weight: bold;
+	font-family: "Faster One", cursive;
+}
+.navbar-brand img{
+	width :4rem;
+}
+
+hr{
+	border-top: 1px solid white;
+	width: 100%;
+}
